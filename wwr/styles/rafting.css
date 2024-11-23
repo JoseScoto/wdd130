@@ -1,0 +1,40 @@
+:root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
+    --heading-font: "Trirong", serif;
+    --padding: 1 rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+    --primary-color: fffbfc;
+    --secondary-color: 30332e;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+    color: #ec058e;
+    position: absolute;
+}
+
+h2 {
+    text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+    color: #ec058e;
+}
+
+footer {
+    text-decoration: none;
+}
+
+.herodiv {
+	margin: 10px auto;
+	position: absolute; 
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
