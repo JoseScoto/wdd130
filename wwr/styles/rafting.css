@@ -1,40 +1,91 @@
 :root {
-    --heading-background-color: #f06;
-    --heading-text-color: #333;
-    --heading-font: "Trirong", serif;
-    --padding: 1 rem;
-    --border: 1px solid rgb(0 0 0 / 0.1);
-    --primary-color: fffbfc;
-    --secondary-color: 30332e;
+    --primary-color: #004e89; /*Deep blue*/
+    --secondary-color: #78c0e0;
+    --accent-color: #f4d35e;
+    --text-color: #333333;
+    --background-color: #ffffff;
+
+body {
+    font-family: 'Trirong', serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-h1 {
-	text-align: center;
-	font-size: 1.5rem;
-	text-shadow: 3px 3px 5px #777;
-    color: #ec058e;
-    position: absolute;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: var(--background-color);
 }
 
-h2 {
-    text-align: center;
-	font-size: 1.5rem;
-	text-shadow: 3px 3px 5px #777;
-    color: #ec058e;
+header img {
+    max-height: 50px;
 }
 
-footer {
+nav a {
+    color: var(--background-color);
+    margin: 0 10px;
     text-decoration: none;
 }
 
-.herodiv {
-	margin: 10px auto;
-	position: absolute; 
-    
+.hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: var(--background-color);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 6);
+    color: var(--background-color);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.hero article img {
+    float: right;
+    max-width: 100px;
+    margin-left: 1em;
+}
+
+section h2 {
+    color: var(--primary-color)
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1em;
+}
+
+footer .sociallinks a {
+    text-decoration: none;
+}
+
+footer .sociallinks img {
+    max-height: 30px;
+    margin: 0 10px;
+    display: inline-block;
 }
