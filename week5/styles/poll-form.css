@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: rgb(14, 16, 112);
+    background: #f7fadf;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.4em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    width: 650px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgb(65, 139, 161);
+    border-radius: 1em;
+    background-color: rgb(211, 223, 191);
+}
+
+fieldset {
+    display: grid;
+    grid-area: span;
+    margin: 1rem;
+    border: 1px solid rgba(28, 63, 21, 0.219);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: rgb(5, 5, 204);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Courier New', Courier, monospace
+}
+
+label {
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(126, 214, 123);
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 0.75em;
+    padding: .25rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+buttom:hover {
+    background-color: rgb(12, 117, 9);
+}
+
+footer {
+    margin: 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
