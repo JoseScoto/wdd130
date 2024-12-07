@@ -58,7 +58,8 @@ label {
 }
 
 input, select, textarea {
-    padding: 0.5rem;
+    padding: .06rem;
+    align-items: center;
     font-size: 1.1rem;
 }
 
@@ -76,7 +77,7 @@ button {
     border-radius: 0.75em;
     padding: .25rem;
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: bold;;
 }
 
 buttom:hover {
@@ -85,7 +86,7 @@ buttom:hover {
 
 footer {
     margin: 1rem;
-    width: 650px;
+    width: auto;
     text-align: center;
     font-size: 0.8em;
     border-top: 1px solid #ccc;
@@ -99,6 +100,7 @@ footer {
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
+    align-items: center;
 }
 
 .column2 {
