@@ -129,6 +129,86 @@ figcaption {
     font-size: 0.9rem;
 }
 
+/* Form Styles */
+form {
+    display: grid;
+    justify-items: stretch;
+    width: 650px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgb(65, 139, 161);
+    border-radius: 1em;
+    background-color: var(--secondary-color);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+fieldset {
+    display: grid;
+    /* grid-area: span; */
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: rgb(5, 5, 204);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    text-align: left;
+    padding-right: 0.5rem;
+}
+
+input, select {
+    padding: .06rem;
+    font-size: 1.1rem;
+    justify-content: stretch;
+}
+
+textarea {
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: rgb(17, 6, 172);
+    color: rgb(255, 255, 255);
+    border: 1px solid blue;
+    border-radius: 0.5em;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 200px;
+}
+
+.form-item {
+    display: grid;
+    align-items: flex-end;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    align-items: center;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
 /* Footer Styles */
 footer {
     background-color: #E6E6FA;

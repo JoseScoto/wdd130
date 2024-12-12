@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
-    <meta name="description" content="Information about us and how to get in touch">
+    <meta name="description" content="Get in touch with us for your next rafting adventure! Find our contact details, 
+    including email, phone numbers, and our location on Google Maps. Meet our friendly staff through photos
+    and use our convenient contact form to ask questions of book your trip.">
     <meta name="author" content="Jose Escoto">
     <!--Google Fonsts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -84,11 +86,56 @@
                 </figure>
             </div>
         </section>
+        <!--Form Section-->
+        <section class="form">
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full name:</label>
+                        <input type="text" id="fullname" name="fullname">   
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <!--Questions-->
+                <fieldset>
+                    <legend>Purpose of the message</legend>
+                    <div class="form">
+                        <label>
+                            <input type="radio" id="option1" name="options" value="option1">
+                            General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" id="option2" name="options" value="option2">
+                            Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" id="option3" name="options" value="option3">
+                            Website Suggestion
+                        </label>
+                    </div>
+                    <div>
+                        <!-- <label for="feedback">Inquiry</label> -->
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Type your inquiry here"></textarea>
+                    </div>
+                    <div class="form">
+                        <label for="pet">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                    
+                </fieldset>
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </section>
     </main>  
 
     <!--Footer-->
     <footer>
         <p>©️2024, White Water Rafting, Jose Escoto CEO</p>
+        <a href="https://app.moqups.com/akgh307QA1eqUtstgshnqGVewCGuT0jL/view/page/ad64222d5" target="_blank">Wireframe Image</a>
         <nav class="sociallinks">
             <a href="https://facebook.com">
                 <img src="images/faceboook_logo.webp" alt="Facebook">
