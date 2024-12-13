@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Rafting Website</title>
+    <meta name="description" content="Experience thrilling white water rafting adventures. Sign up for our newsletter
+    and explore our exciting trips.">
+    <title>white Water Rafting Adventures</title>
     <!--Google Fonsts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,28 +30,48 @@
     <main>
         <!--Hero section-->
         <div class="hero">
-            <h1>White Water Rafting</h1>
+            <h1>Welcome to White Water Rafting Adventures</h1>
             <article>
                 <img src="images/happy_client1.webp" alt="happy clients">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto molestiae ipsa hic, facilis ipsam perspiciatis corrupti doloremque adipisci magni amet ullam sit assumenda, itaque, possimus deleniti illum tenetur. Ducimus, consequuntur.</p>
+                <p>Experience the thrill of river like never before!</p>
             </article>
-                <img src="images/kayak_banner2.webp" alt="a banner of a man in a kayak">
+                <img src="images/rafting3.webp" alt="a banner of a man in a kayak">
         </div>
 
-        <!--History Section-->
-        <section class="history">
-            <h2>History</h2>
-            <p>Founded over 20 years ago, White Water Rafting began with a passion for adventure and a love for the great outdoors. Starting as a small, family-run business, the company grew from offering local rafting tours to becoming a premier destination for thrill-seekers and nature enthusiasts alike.
-
-                Our mission has always been to provide safe, memorable, and exciting experiences on the water. With expert guides, state-of-the-art equipment, and a dedication to customer satisfaction, we’ve helped thousands of adventurers explore some of the most beautiful rivers and landscapes in the region.
-                
-                Whether you're a beginner looking for a peaceful float or an experienced rafter seeking heart-pounding rapids, White Water Rafting offers something for everyone. Join us to make lifelong memories and experience the thrill of the river!</p>
+        <!--Newsletter Sign-up form-->
+        <section class="newsletter">
+            <h2>Sign up for Updates</h2>
+            <form action="#" method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
         </section>
 
         <!--Adventure Section-->
-        <section class="adventure">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-images">
+        <section class="cta">
+            <h2>Plan Your Adventure!</h2>
+            <p>Don't miss out on our exciting trips. Click below to explore all our offerings!</p>
+            <a href="trips.html" class="cta-button">Explore Trips</a>
+        </section>
+        <section class="offerings">
+            <div class="grid">
+                <!--Image #1-->
+                <div class="grid-item">
+                    <img src="/wwr/images/rafting1.webp" alt="Rafting Adventure">
+                    <h3>Trilling Adventures</h3>
+                    <p>Join us for an unforgettable experience on some of the most beautiful rivers</p>
+                </div>
+                 <!--Image #2-->
+                 <div class="grid-item">
+                    <img src="/wwr/images/rafting2.webp" alt="Team building rafting">
+                    <h3>Team Building Trips</h3>
+                    <p>Bring your friends or coworkers for a fun and challenging team building experience</p>
+                </div>
+            </div>
+            <!-- <div class="adventure-images">
                 <figure>
                     <img src="images/rafting1.webp" alt="kayak adventure starts">
                     <figcaption>Los Dientes del Diablo</figcaption>                
@@ -70,7 +92,7 @@
                     <img src="images/rafting5.webp" alt="a group of happy customers after kayak">
                     <figcaption>Feel Like a Champ</figcaption>
                 </figure>
-            </div>
+            </div> -->
         </section>
     </main>  
 

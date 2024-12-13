@@ -84,7 +84,7 @@ nav a:hover {
 /*History Section*/
 .history {
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     padding: 2rem;
     background-color: white;
@@ -93,7 +93,7 @@ nav a:hover {
     border-radius: 8px;
 }
 
-.history h2 {
+.history h2, p {
     grid-column: 1 / -1;
     text-align: center;
 }
@@ -226,6 +226,110 @@ footer {
 .sociallinks img {
     width: 30px;
     height: 30px;
+}
+
+/* Index design */
+.hero {
+    background: url('/wwr/images/rafting3.webp') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.newsletter form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.newsletter input, .newsletter button {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Call to Action */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0c019e;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+/* Grid Layout */
+.offerings {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    margin-top: 10px;
+}
+
+.grid-item p {
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table th, table td {
+    padding: 1opx;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background: 007bff;
+    color: white;
+}
+
+/* Grid fro Trips */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:20px;
+    padding: 20px;
+}
+
+table tr:nth-child(even) {
+    background: #f4f4f4;
 }
 
 /* Responsive Design */
