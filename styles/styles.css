@@ -1,9 +1,15 @@
 :root {
     --background-color: rgb(25, 39, 161);
-    --sec-background-color: #cac8c8;
+    --sec-background-color: #dad6d6;
     --heading-text-color: #2b4afc;
     --border: 1px solid rgb(0 0 0 / 0.1);
-    --text-color: black;
+    --text-color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -19,18 +25,22 @@ nav a {
 
 h1 {
     color: var(--heading-text-color);
+    padding: 1rem;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: var(--border);
+    border: 1px solid var(--border);
     padding: 2px;
     box-shadow: 0 0 30px rgb(109, 108, 108);
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 main {
@@ -38,22 +48,36 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: var(--text-color);
+    width: 20em;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 17px;
+    left: 100px;
 }
 
 aside img {
     width: 200px;
     height: auto;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(109, 108, 108);
 }
 
 footer {
     margin-top: 20px;
     border-top: 2px solid black;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: var(--sec-background-color);
+    color: var(--text-color);
 }
