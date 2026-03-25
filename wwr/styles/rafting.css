@@ -1,7 +1,7 @@
 :root {
     --primary-color: #1A5276;
     /* Deep blue */
-    --secondary-color: #1E8449;
+    --secondary-color: #186638;
     /* Green */
     --accent1-color: #E67E22;
     /* Orange */
@@ -9,7 +9,6 @@
     /* White*/
     --heading-font: 'Bebas Neue', sans-serif;
     --body-font: 'Inter', sans-serif;
-    --accent-font: 'Oswald', sans-serif;
 }
 
 * {
