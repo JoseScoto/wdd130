@@ -91,6 +91,7 @@ h1 {
 section h2 {
     background-color: var(--accent1-color);
     text-align: center;
+    color: white;
 }
 
 .socialmedia img {
