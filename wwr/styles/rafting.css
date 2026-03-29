@@ -50,6 +50,7 @@ article {
 
 .hero {
     position: relative;
+    margin: 5px;
 }
 
 .hero img {
@@ -95,4 +96,65 @@ section h2 {
 .socialmedia img {
     width: 24px;
     height: 24px;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+header img {
+    width: 100px;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+section .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+section .combo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.combo img {
+    padding: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
 }
