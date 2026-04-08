@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Practice</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <h1>WDD 130 | Basic HTML and CSS Quiz</h1>
+    <form>
+        <fieldset>
+            <legend>Questions</legend>
+            <div class="form-item">
+                <label for="q1">What CSS property is used to chnage the font of an element?</label>
+                <input type="input" id="q1" name="q1">
+            </div>
+
+            <div class="form-item">
+                <label for="q2">What is the difference between margin and padding?</label>
+                <textarea id="q2" name="q2" rows="4" placeholder="Short answer question"></textarea>
+            </div>
+
+            <div class="form-item">
+                <label for="q3">Which HTML tag is used to change the font of an element?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="section">section</option>
+                    <option value="nav">nav</option>
+                    <option value="article">article</option>
+                    <option value="aside">aside</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="q4">Number input
+                    How many columns will grid-template-columns: repeat(4, 1fr) create?</label>
+                <input type="number" id="q4" name="q4" min="0" max="10"></input>
+            </div>
+        </fieldset>
+
+        <button type="submit">Submit Poll</button>
+    </form>
+
+    <footer>
+        <p>©2026 | HTML Quizz Form | Jose Escoto</p>
+    </footer>
+</body>
+
+</html>
